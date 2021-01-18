@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Valeriia Ignatenko](https://up.htmlacademy.ru/htmlcss/30/user/1642839).
-* Наставник: [Алексей Елькин](https://htmlacademy.ru/profile/alex_elkin)
+* Наставник: `Неизвестно`.
 
 ---
 
