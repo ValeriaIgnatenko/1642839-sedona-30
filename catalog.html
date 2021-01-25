@@ -11,7 +11,7 @@
   <header>
     <nav>
       <a>
-        <img src="" width="138" height="70" alt="">
+        <img src="https://via.placeholder.com/138x70" width="138" height="70" alt="">
       </a>
       <ul>
         <li><a href="index.html">Информация</a></li>
@@ -27,33 +27,38 @@
     <form method="get" action="https://echo.htmlacademy.ru">
       <fieldset>
         <legend>Инфраструктура:</legend>
-        <li>
-          <input type="checkbox" name="pool" id="ch1" checked>
-          <label for="ch1">Бассейн</label>
-        </li>
-        <li>
-          <input type="checkbox" name="parking" id="ch2">
-          <label for="ch2">Парковка</label>
-        </li>
-        <li>
-          <input type="checkbox" name="Wi-Fi" id="ch3">
-          <label for="ch3">Wi-Fi</label>
-        </li>
+        <ul>
+          <li>
+            <input type="checkbox" name="pool" id="ch1" checked>
+            <label for="ch1">Бассейн</label>
+          </li>
+          <li>
+            <input type="checkbox" name="parking" id="ch2">
+            <label for="ch2">Парковка</label>
+          </li>
+          <li>
+            <input type="checkbox" name="Wi-Fi" id="ch3">
+            <label for="ch3">Wi-Fi</label>
+          </li>
+        </ul>
       </fieldset>
 
       <fieldset>
         <legend>Тип жилья:</legend>
-        <li>
-          <input type="checkbox" name="hotel1" id="ch4" checked>
-          <label for="ch4">Гостиница</label>
-        </li>
-        <li>
-          <input type="checkbox" name="hotel2" id="ch5" checked>
-          <label for="ch5">Мотель</label>
-        <li>
-          <input type="checkbox" name="hotel3" id="ch6" checked>
-          <label for="ch6">Апартаменты</label>
-        </li>
+        <ul>
+          <li>
+            <input type="checkbox" name="hotel1" id="ch4" checked>
+            <label for="ch4">Гостиница</label>
+          </li>
+          <li>
+            <input type="checkbox" name="hotel2" id="ch5" checked>
+            <label for="ch5">Мотель</label>
+          </li>
+          <li>
+            <input type="checkbox" name="hotel3" id="ch6" checked>
+            <label for="ch6">Апартаменты</label>
+          </li>
+        </ul>
       </fieldset>
 
       <fieldset>
@@ -69,7 +74,7 @@
       <li>
         <a href="">
           <h2>Amara Resort & Spa</h2>
-          <img src="https://via.placeholder.com/150x100" alt="">
+          <img src="https://via.placeholder.com/150x100" width="150" height="100" alt="">
         </a>
         <h3>Гостиница</h3>
         <div>от 3500 р.</div>
@@ -80,7 +85,7 @@
       <li>
         <a href="">
           <h2>Desert Quail Inn</h2>
-          <img src="https://via.placeholder.com/150x100" alt="">
+          <img src="https://via.placeholder.com/150x100" width="150" height="100" alt="">
         </a>
         <h3>Мотель</h3>
         <div>от 2000 р.</div>
@@ -91,7 +96,7 @@
       <li>
         <a href="">
           <h2>Villas at Poco Diablo</h2>
-          <img src="https://via.placeholder.com/150x100" alt="">
+          <img src="https://via.placeholder.com/150x100" width="150" height="100" alt="">
         </a>
         <h3>Апартаменты</h3>
         <div>от 4000 р.</div>
@@ -99,11 +104,13 @@
         <a href="#">Забронировать</a>
         <p>Рейтинг: 9,2</p>
       </li>
-      <span>Сортировка:</span>
-      <span><a href="#">По цене</a></span>
-      <span><a href="#">По типу</a></span>
-      <span><a href="#">По рейтингу</a></span>
     </ol>
+    <span>
+      Сортировка:
+      <a href="#">По цене</a>
+      <a href="#">По типу</a>
+      <a href="#">По рейтингу</a>
+    </span>
   </main>
 
   <footer>
