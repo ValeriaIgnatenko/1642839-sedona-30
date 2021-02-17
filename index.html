@@ -35,13 +35,13 @@
     </header>
 
     <main class="container">
-        <div class="index-columns">
+        <div class="welcome">
             <a>
                 <img src="img/welcome.png" width="456" height="350" alt="добро пожаловать в cедону">
+            </a>
         </div>
-        </a>
         <section class="reasons">
-            <h1>Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
+            <h1 class="reasons-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
             <p>Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
             <ol class="reasons-list">
                 <li class="reasons-item">
@@ -50,7 +50,7 @@
                     <a>
                         <img src="img/image.png" width="800" height="256" alt="настоящий городок">
                     </a>
-                    <ul>
+                    <ul class="reasons-sublist">
                         <li>
                             <h3>Жильё</h3>
                             <a>
@@ -73,53 +73,52 @@
                             <p>Не только китайского, но и местного производства!</p>
                         </li>
                     </ul>
-                    <div class="index-columns">
-                        <li>
-                            <h2>Там есть Мост дьявола</h2>
-                            <a>
-                                <img src="img/image-2.png" width="800" height="256" alt="мост дьявола">
-                            </a>
-                            <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
-                        </li>
-                        <li>
-                            <h2>Небольшая площадь</h2>
-                            <p>Все достопримечательности находятся очень близко</p>
-                        </li>
-                        <li>
-                            <h2>Красивая дорога</h2>
-                            <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-                        </li>
-                        <li>
-                            <h2>Мало туристов</h2>
-                            <p>Большинство едет в Гранд Каньон и толпится там</p>
-                    </div>
-                    </li>
+                </li>
+                <li class="reasons-item">
+                    <h2>Там есть Мост дьявола</h2>
+                    <a>
+                        <img src="img/image-2.png" width="800" height="256" alt="мост дьявола">
+                    </a>
+                    <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+                </li>
+                <li class="reasons-item-gray">
+                    <h2>Небольшая площадь</h2>
+                    <p>Все достопримечательности находятся очень близко</p>
+                </li>
+                <li class="reasons-item-gray">
+                    <h2>Красивая дорога</h2>
+                    <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+                </li>
+                <li class="reasons-item-gray">
+                    <h2>Мало туристов</h2>
+                    <p>Большинство едет в Гранд Каньон и толпится там</p>
+
+                </li>
             </ol>
-            <div class="index-columns">
-                <section class="search-hotel">
-                    <h2>Заинтересовались?</h2>
-                    <p class="search-hotel-info">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне
+            <section class="search-hotel">
+                <h2>Заинтересовались?</h2>
+                <p class="search-hotel-info">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне
+                </p>
+                <form class="search-hotel-form" action="https://echo.htmlacademy.ru" method="post">
+                    <p class="hotel-item">
+                        <label for="search-hotel-date">Дата заезда</label>
+                        <input id="search-date" type="text" name="date" placeholder="24.04.2017">
                     </p>
-                    <form class="search-hotel-form" action="https://echo.htmlacademy.ru" method="post">
-                        <p class="hotel-item">
-                            <label for="search-hotel-date">Дата заезда</label>
-                            <input id="search-date" type="text" name="date" placeholder="24.04.2017">
-                        </p>
-                        <p class="hotel-item">
-                            <label for="search-hotel-date">Дата выезда</label>
-                            <input id="appointment-time" type="text" name="date" placeholder="4.07.2017">
-                        </p>
-                        <p class="hotel-item">
-                            <label for="number-of-adults">Взрослые</label>
-                            <input id="number-of-adults" type="text" name="adults" placeholder="2">
-                        </p>
-                        <p class="hotel-item">
-                            <label for="number-of-child">Дети</label>
-                            <input id="number-of-child" type="text" name="child" placeholder="0">
-                        </p>
-                        <button class="button" type="submit">Найти</button>
-            </div>
-            </form>
+                    <p class="hotel-item">
+                        <label for="search-hotel-date">Дата выезда</label>
+                        <input id="appointment-time" type="text" name="date" placeholder="4.07.2017">
+                    </p>
+                    <p class="hotel-item">
+                        <label for="number-of-adults">Взрослые</label>
+                        <input id="number-of-adults" type="text" name="adults" placeholder="2">
+                    </p>
+                    <p class="hotel-item">
+                        <label for="number-of-child">Дети</label>
+                        <input id="number-of-child" type="text" name="child" placeholder="0">
+                    </p>
+                    <button class="button" type="submit">Найти</button>
+                    </div>
+                </form>
             </section>
 
 
@@ -134,7 +133,7 @@
         <h2>Контактная информация</h2>
         <p>#visitSEDONA</p>
         Тел:<a class="footer-phone" href="#">+7(495)666-01-66</a>
-        <ul>
+        <ul class="social">
             <li><a class="social-button" href="#">Twitter</a></li>
             <li><a class="social-button" href="#">Facebook</a></li>
             <li><a class="social-button" href="#">Youtube</a></li>
